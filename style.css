@@ -1,0 +1,52 @@
+#titulo {
+  display: flex;
+  justify-content: center;
+  background-color: #266;
+  color: azure;
+  border-color: black;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.pegando_notas {
+  display: flex;
+
+  flex-direction: column;
+  background-color: rgb(17, 53, 53);
+  color: azure;
+  border-color: black;
+  border-radius: 6px;
+  margin-left: 30%;
+  width: 20%;
+  padding-right: 20%;
+  padding-bottom: 10%;
+}
+.todasnotas {
+  align-content: center;
+  margin-top: 20px;
+  margin-left: 65%;
+}
+
+input {
+  border-color: red;
+  border-radius: 4px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.total {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(187, 153, 219);
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+}
